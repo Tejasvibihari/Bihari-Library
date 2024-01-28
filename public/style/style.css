@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: #CAF0F8;
+}
+
+.nav-link {
+    color: #03045E;
+}
+
+.navbar-brand {
+    color: #03045E;
+}
