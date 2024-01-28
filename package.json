@@ -1,0 +1,26 @@
+{
+  "name": "bihari-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejasvibihari/Bihari-Library.git"
+  },
+  "author": "Tejasvi Bihari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejasvibihari/Bihari-Library/issues"
+  },
+  "homepage": "https://github.com/Tejasvibihari/Bihari-Library#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3"
+  }
+}
