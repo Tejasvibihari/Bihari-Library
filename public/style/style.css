@@ -8,8 +8,33 @@ body {
 
 .nav-link {
     color: #03045E;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .navbar-brand {
     color: #03045E;
+}
+
+.btn {
+    background-color: #00b4d8;
+    color: #03045E;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hello {
+    color: #03045E;
+    color: #0077B6;
+    color: #00B4D8;
+    color: #90E0EF;
+    color: #CAF0F8;
+}
+
+.btn:hover {
+    background-color: #03045E;
+    color: #CAF0F8;
 }
