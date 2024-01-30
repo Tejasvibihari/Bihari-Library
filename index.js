@@ -1,7 +1,9 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose, { Mongoose } from "mongoose";
-
+import dotenv from "dotenv";
+dotenv.config();
+import User from "./scripts/user.model.js";
 
 
 
@@ -12,14 +14,16 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(express.static("uploads"));
 
-
-mongoose.connect("mongodb://localhost:27017/libraryDb")
+// Mongo Database Connection
+mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("Database Created Successfully");
     })
     .catch((err) => {
         console.log(err);
     });
+
+
 
 
 app.get("/", (req, res) => {
